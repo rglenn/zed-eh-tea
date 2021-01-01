@@ -649,11 +649,11 @@ F 3 "" H 1500 5900 50  0001 C CNN
 	1    1500 5900
 	1    0    0    -1  
 $EndComp
-Text GLabel 900  6200 0    60   3State ~ 0
+Text GLabel 900  6700 0    60   3State ~ 0
 /IORQ
-Text GLabel 900  6300 0    60   3State ~ 0
+Text GLabel 900  6800 0    60   3State ~ 0
 A7
-Text GLabel 900  6400 0    60   Input ~ 0
+Text GLabel 900  6900 0    60   Input ~ 0
 /M1
 Wire Wire Line
 	900  6400 1000 6400
@@ -661,12 +661,6 @@ Wire Wire Line
 	1000 6300 900  6300
 Wire Wire Line
 	900  6200 1000 6200
-Text GLabel 900  6900 0    60   3State ~ 0
-A6
-Text GLabel 900  6800 0    60   3State ~ 0
-A5
-Text GLabel 900  6700 0    60   3State ~ 0
-A4
 Wire Wire Line
 	1000 6800 900  6800
 Wire Wire Line
@@ -724,11 +718,11 @@ Text GLabel 2000 6000 0    60   3State ~ 0
 /MREQ
 Wire Wire Line
 	2000 6000 2100 6000
-Text GLabel 2000 5700 0    60   BiDi ~ 0
+Text GLabel 2000 5800 0    60   BiDi ~ 0
 MA19
 Wire Wire Line
 	2000 5700 2100 5700
-Text GLabel 2000 5800 0    60   BiDi ~ 0
+Text GLabel 2000 5700 0    60   BiDi ~ 0
 MA20
 Wire Wire Line
 	2000 5800 2100 5800
@@ -1352,4 +1346,10 @@ Wire Wire Line
 Connection ~ 8800 7050
 Wire Wire Line
 	8800 7050 9300 7050
+Text GLabel 900  6300 0    60   3State ~ 0
+A5
+Text GLabel 900  6400 0    60   3State ~ 0
+A6
+Text GLabel 900  6200 0    60   3State ~ 0
+A4
 $EndSCHEMATC
