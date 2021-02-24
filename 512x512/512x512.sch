@@ -649,11 +649,11 @@ F 3 "" H 1500 5900 50  0001 C CNN
 	1    1500 5900
 	1    0    0    -1  
 $EndComp
-Text GLabel 900  6700 0    60   3State ~ 0
+Text GLabel 900  6900 0    60   3State ~ 0
 /IORQ
 Text GLabel 900  6800 0    60   3State ~ 0
 A7
-Text GLabel 900  6900 0    60   Input ~ 0
+Text GLabel 900  6700 0    60   Input ~ 0
 /M1
 Wire Wire Line
 	900  6400 1000 6400
